@@ -1,0 +1,81 @@
+section.work 
+    .container 
+        +blockBox("what we do","Some of out work", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga a, debitis officiis expedita numquam, culpa reprehenderit dolor animi porro consectetur molestias, aperiam itaque accusantium sunt quos esse provident. Velit, consectetur.")
+    .work-grid 
+        +workItem
+        +workItem("https://images.unsplash.com/photo-1495874418447-4a9bab856d0b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=631&q=80","fa fa-home","Cristy Roranldo")
+        +workItem("https://images.unsplash.com/photo-1495874418447-4a9bab856d0b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=631&q=80","fa fa-home","Cristy Roranldo")
+        +workItem("./images/img-work4.png","fa fa-home","Cristy Roranldo")
+        +workItem("./images/img-work5.png","fa fa-home","Cristy Roranldo")
+        +workItem("./images/img-work6.png","fa fa-home","Cristy Roranldo")
+        +workItem("./images/img-work7.png","fa fa-home","Cristy Roranldo")
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //- .work-column code bình thường
+        //-     //- Dùng mixin pug cho css
+        //-     +workItem
+        //-     //- .work-item 
+        //-     //-     img.work-image(src="./images/img-work1.png")    
+        //-     //-     .work-content 
+        //-     //-         i.fa.fa-home.work-icon
+        //-     //-         h3.work-title Creatively designed
+        //-     //-         span.work-desc Lorem ipsum dolor sit 
+
+        //-     //- chú ý Icon không có dấu chấm fa fa-home
+        //-     +workItem("./images/img-work2.png","fa fa-home","Cristy Roranldo")
+        //-     //- .work-item 
+        //-     //-     img.work-image(src="./images/img-work2.png")    
+        //-     //-     .work-content 
+        //-     //-         i.fa.fa-home.work-icon
+        //-     //-         h3.work-title Creatively designer
+        //-     //-         span.work-desc Lorem ipsum dolor sit 
+        //- .work-column 
+        //-     +workItem("./images/img-work3.png","fa fa-cog","Creatively designer")
+        //-     +workItem("./images/img-work4.png","fa fa-heart","Creatively designer")
+        //- .work-column 
+        //-     +workItem("https://images.unsplash.com/photo-1631248622995-dcda25242eba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80","fa fa-home","Lion Messi","work-item--full")
+        //-     //- cái hình full 
+        //-     //- .work-item.work-item--full    
+        //-     //-     img.work-image(src="https://images.unsplash.com/photo-1631248622995-dcda25242eba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80")    
+        //-     //-     .work-content 
+        //-     //-         i.fa.fa-home.work-icon
+        //-     //-         h3.work-title Creatively designer
+        //-     //-         span.work-desc Lorem ipsum dolor sit 
+        //- .work-column 
+        //-     +workItem("./images/img-work6.png","i.fa.fa-home","Creatively designer")
+        //-     +workItem("./images/img-work7.png","fa.fa-home","Creatively aaaaaaadesigner")
+        
+
+    //-  .work-column ngắn ngọn
+    //-         //- Dùng mixin pug cho css
+    //-         +workItem
+    //-         +workItem("./images/img-work2.png","fa fa-home","Cristy Roranldo")
+    //-     .work-column 
+    //-         +workItem("./images/img-work3.png","fa fa-cog","Creatively designer")
+    //-         +workItem("./images/img-work4.png","fa fa-heart","Creatively designer")
+    //-     .work-column 
+    //-         +workItem("https://images.unsplash.com/photo-1631248622995-dcda25242eba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80","fa fa-home","Lion Messi","work-item--full")
+    //-     .work-column 
+    //-         +workItem("./images/img-work6.png","i.fa.fa-home","Creatively designer")
+    //-         +workItem("./images/img-work7.png","fa.fa-home","Creatively aaaaaaadesigner")

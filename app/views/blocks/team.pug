@@ -1,0 +1,35 @@
+section.team
+    .container 
+        +blockBox("who are you","Meet our team", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sapiente enim suscipit quae, earum dicta vitae placeat dolore dolores esse provident tenetur, non nisi! Quos facere facilis ex cumque mollitia?")
+        .team-list 
+            //- Cocde CSS  
+            //- .team-item 
+            //-     .team-main 
+            //-         img(src="https://images.unsplash.com/photo-1631116316819-0142dbba14ad?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80").team-image
+            //-         .team-content
+            //-             ul.team-social 
+            //-                 li.team-social-item
+            //-                     a.team-social-link(href="#")
+            //-                         i.fab.fa-facebook-f
+            //-                 li.team-social-item
+            //-                     a.team-social-link(href="#")
+            //-                         i.fab.fa-twitter
+            //-                 li.team-social-item
+            //-                     a.team-social-link(href="#")
+            //-                         i.fab.fa-pinterest
+            //-                 li.team-social-item
+            //-                     a.team-social-link(href="#")
+            //-                         i.fab.fa-youtube
+            //-     .team-info 
+            //-             h3.team-name Chirch Teamfeam
+            //-             span.team-possition Web devloper
+                        
+            
+            +teamItem
+            +teamItem("./images/img-team2.png","Lion Messi", " Caption America")
+                +teamSocial("#Evondev")
+            +teamItem("./images/img-team3.png","Henry Borter", " Actor ")
+
+section.brand 
+    .container 
+        img(src="./images/img-logos.png" alt="brands")
